@@ -1,0 +1,42 @@
+.container {
+  background-color: #1e293b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bree Serif';
+}
+.heading {
+  font-size: 30px;
+  color: #f0bb03;
+  font-weight: 700;
+}
+.description {
+  font-size: 15px;
+  color: white;
+}
+.button {
+  margin: auto;
+  background-color: #ffffff;
+  color: #1e293b;
+  border: none;
+  border-radius: 10px;
+}
+.sub-container {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 100px;
+  }
+  .description {
+    font-size: 30px;
+  }
+  .button {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 20px;
+    font-size: 20px;
+  }
+}
